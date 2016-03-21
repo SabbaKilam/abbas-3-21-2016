@@ -13,7 +13,10 @@
 
 
 //=========THE DRIVER'S SEAT============
-
+$("#menu").click(openMenu);
 
 
 //=========UNDER THE HOOD===============
+function openMenu(){
+    $("#frontPanel").css("left","50%");
+}
